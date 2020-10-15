@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(70,78,84);
+}
+.white_box {
+    height: 750px;
+    width: 1060px;
+    margin-top: 150px;
+    margin-left: 70px;
+    background-color: white;
+    padding-top: 200px;
+}
+.black_box {
+    height: 190px;
+    width: 870px;
+    background-color: rgb(24, 24, 24);
+    float: right;
+    
+}
+.yellow_box {
+    height: 75px;
+    width: 810px;
+    background-color: rgb(250,191, 45);
+    float: right;
+}
+.all_boxies {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+}
+.by_boxies {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    
+}
+.roy {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 30px;
+    padding-left: 125px;
+}
+.like {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 66px;
+    color: black;
+    padding-left: 125px;
+    padding-top: 35px;
+    width: 755px;
+    line-height: 0px;
+}
+.where {
+    font-family: 'Georgia', sans-serif;
+    font-size: 30px;
+    color: gray;
+    padding-left: 125px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+.seen, .dont {
+    font-family: 'Georgia' , sans-serif;
+    font-size: 27px;
+    color: black;
+    line-height: auto;
+    padding-left: 125px;
+    max-width: 800px;
+    text-align: justify;
+}
+.seen {
+    padding-top: 55px;
+}
+.dont {
+    padding-top: 15px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 65px;
+    line-height: 0px;
+}
+.little {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white;
+    padding-left: 65px;
+    line-height: 0px;
+
+}
+.line {
+    color: gray;
+    max-width: 800px;
+    margin-left: 65px;
+}
+.images {
+    font-size: 35px;
+    color: rgb(250,220, 150);
+    word-spacing: 10px;
+    padding-left: 45px;
+    padding-top: 18px;
+}
+.bold {
+    color: white;
+}
