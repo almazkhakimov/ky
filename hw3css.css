@@ -3,19 +3,19 @@ body {
 }
 .white_box {
     background-color: white;
-    height: 950px;
+    height: 1025px;
     margin-left: 100px;
     margin-top: 130px;
     margin-bottom: 130px;
     margin-right: 100px;
 }
-.willow {
+.title {
     font-family: 'Playfair Display', serif;
     font-size: 42px;
     padding-top: 120px;
     padding-left: 120px;
 }
-.fl:first-letter {
+.text:first-letter {
     font-family: 'Playfair Display', serif;
     font-size: 110px;
     float: left;
@@ -23,11 +23,11 @@ body {
     line-height: 0.65;
     color: rgb(0, 0, 0);
 }
-.fl {
+.text {
     font-size: 25px;
     line-height: 34px;
 }
-.other_text {
+.main_text {
     font-size: 25px;
     line-height: 34px;
     display: block;
@@ -36,24 +36,22 @@ body {
     margin-left: 120px;   
 }
 
-.engineer, .other_text {
+.quote, .main_text {
     font-family: 'Lato', sans-serif;
 }
-.engineer {
+.quote {
     font-size: 30px;
     font-style: italic;
-    display: flex;
     margin-left: 120px;
     color: gray;
 }
 .indent {
     text-indent: 1.1em;
 }
-.rystochka {
+.text_element {
     font-family: 'Playfair Display', serif;
 }
 .button {
-    display: flex;
     border: 2px solid orange;
     height: 60px;
     width: 260px;

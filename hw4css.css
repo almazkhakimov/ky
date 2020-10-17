@@ -34,13 +34,13 @@ body {
     right: 0;
     
 }
-.roy {
+.text {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-size: 30px;
     padding-left: 125px;
 }
-.like {
+.text1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 66px;
     color: black;
@@ -49,7 +49,7 @@ body {
     width: 755px;
     line-height: 0px;
 }
-.where {
+.text2 {
     font-family: 'Georgia', sans-serif;
     font-size: 30px;
     color: gray;
@@ -57,7 +57,7 @@ body {
     padding-top: 0px;
     line-height: 0px;
 }
-.seen, .dont {
+.text3, .text4 {
     font-family: 'Georgia' , sans-serif;
     font-size: 27px;
     color: black;
@@ -66,10 +66,10 @@ body {
     max-width: 800px;
     text-align: justify;
 }
-.seen {
+.text3 {
     padding-top: 55px;
 }
-.dont {
+.text4 {
     padding-top: 15px;
 }
 .title {
@@ -80,7 +80,7 @@ body {
     padding-left: 65px;
     line-height: 0px;
 }
-.little {
+.text5 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     color: white;
