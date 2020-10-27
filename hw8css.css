@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(246, 246, 246);
+    position: relative;
+}
+.wrapper {
+    min-height: 100%; /*Всегда всё видно*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    padding-top: 105px;
+}
+.header__body {
+    max-width: 570px;
+    margin: 0px auto;
+}
+.header__row {
+    text-align: center;
+    justify-content: center;
+}
+.header__title {
+    font-family: 'Lato 700', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
+.header__br {
+    padding-top: 10px;
+}
+.header__subtitle {
+    padding-top: 30px;
+    font-family: 'Lato 300', sans-serif;;
+    font-size: 16px;
+    font-weight: 300;
+}
+.workers {
+    padding: 65px 0;
+}
+.workers__body {
+    max-width: 1170px;
+    margin: 0px auto; /*по центру*/
+}
+.workers__row {
+    display: flex;
+    margin: 0px -15px; /*с падингом внизу делаем отступы качественные*/
+}
+.workers__section {
+    height: 268px;
+    width: 268px;
+    padding: 0px 15px; /*Да, тут*/
+    position: relative;
+}
+
+
+
+.workers__section_photo img {
+    width: 268px;
+    height: 268px;
+}
+.workers__section_photo {
+    position: relative;
+    height: 100%;
+}
+
+.workers__section_photo::after {
+    content: '';
+    position: absolute; /*before usabilitie*/
+    width: 100%; 
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+    transition: all 1s ease-in;
+    opacity: 0;
+}
+.workers__section_photo:hover::after { /*такой порядок*/
+    z-index: 1;
+    opacity: 1;
+}
+.social-wrapper {
+    position: absolute;
+    top: 50%; /*(по левому верхнему)*/
+    left: 50%;
+    transform: translate(-50%,-50%); /*перемещение (отцентрирование по центру)*/
+    display: flex;
+    color: green;
+    z-index: 5;
+    opacity: 0; /*убрать*/
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 1s ease-in;
+}
+.workers__section_photo:hover .social-wrapper {
+    z-index: 6;
+    opacity: 1;
+}
+.workers__title {
+    padding-top: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 265px;
+}
+.workers__subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: 305px;
+}

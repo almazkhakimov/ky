@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: rgb(154, 9, 9)
 }
@@ -11,86 +16,63 @@ header {
 
 hr {
     color: white;
-    size: 20px;
     margin-top: 15px;
 }
 
-.BLACKBOX {
+.blackbox {
 width: 100%;
 height: 300px;
 background-color: #000;
 margin-top: 20px;
 }
 
-.LINK {
+.link {
     color:white;
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.LINK:hover {
+.link:hover {
     color: white;
     text-decoration: none;
 }
 
-#FIRST {
+.numbers {
     float: left;
     text-align: center;
     margin: 15px;
     margin-left: 80px;
 }
 
-.KITTY {
+.kitty {
     width: 300px;
     height: auto;
 }
 
-#SECOND {
-    float: left;
-    text-align: center;
-    margin: 15px;
-    margin-left: 160px;
-}
 
-#THREE {
-    float: left;
-    text-align: center;
-    margin: 15px;
-    margin-left: 160px;
-}
 
-#FOUR {
-    float: left;
-    text-align: center;
-    margin: 15px;
-    margin-left: 160px;
-}
-
-.lorems, article, .kek {
-    float: left;
+.lorems, .hoh, .heh {
     font-size: 18px;
+    display: inline-block;
 }
 
-article {
+.hoh {
     background-color: rgb(125, 9,9); 
     text-decoration: none;    
     text-align: left;
-    height: 350px;
-    width: 13%;
+    height: auto;
+    width: 20vw;
+   
 }
 
 .lorems {
-    width: 55%;
+    width: 60vw;
     color: white;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
-aside {
-    width: 29%;
-    margin-right: 1%;
-    float: left;
+.heh {
+    width: 18vw;
     height: 350px;
     background-color: white;
 }
@@ -104,15 +86,16 @@ aside {
     }
 .wew {
     text-align: center;
-    background-color: grey;
+
+    background-color: rgba(128, 128, 128, 0.7);
 }
 .wow {
     margin-left: 5px;
 }
-.COPY {
+.copy {
 
     background-color: rgb(255, 180, 41);
     text-align: center;
-    margin-top: 500px;
+    display: block;
 }
 
