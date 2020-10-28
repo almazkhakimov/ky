@@ -1,7 +1,7 @@
 body {
     background-color: rgb(70,78,84);
 }
-.white_box {
+.boxies__white {
     height: 750px;
     width: 1060px;
     margin-top: 150px;
@@ -9,38 +9,38 @@ body {
     background-color: white;
     padding-top: 200px;
 }
-.black_box {
+.boxies__black {
     height: 190px;
     width: 870px;
     background-color: rgb(24, 24, 24);
     float: right;
     
 }
-.yellow_box {
+.boxies__yellow {
     height: 75px;
     width: 810px;
     background-color: rgb(250,191, 45);
     float: right;
 }
-.all_boxies {
+.boxies {
    max-width: 1200px;
    margin-left: auto;
    margin-right: auto;
    position: relative;
 }
-.by_boxies {
+.boxies__blackyellow {
     position: absolute;
     top: -100px;
     right: 0;
     
 }
-.text {
+.boxies__white_first-text {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-size: 30px;
     padding-left: 125px;
 }
-.text1 {
+.boxies__white_second-text {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 66px;
     color: black;
@@ -49,7 +49,7 @@ body {
     width: 755px;
     line-height: 0px;
 }
-.text2 {
+.boxies__white_third-text {
     font-family: 'Georgia', sans-serif;
     font-size: 30px;
     color: gray;
@@ -57,7 +57,7 @@ body {
     padding-top: 0px;
     line-height: 0px;
 }
-.text3, .text4 {
+.boxies__white_fourth-text, .boxies__white_fifth-text {
     font-family: 'Georgia' , sans-serif;
     font-size: 27px;
     color: black;
@@ -66,13 +66,13 @@ body {
     max-width: 800px;
     text-align: justify;
 }
-.text3 {
+.boxies__white_fourth-text {
     padding-top: 55px;
 }
-.text4 {
+.boxies__white_fifth-text {
     padding-top: 15px;
 }
-.title {
+.boxies__black_title {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-size: 15px;
@@ -80,7 +80,7 @@ body {
     padding-left: 65px;
     line-height: 0px;
 }
-.text5 {
+.boxies__black_text {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     color: white;
