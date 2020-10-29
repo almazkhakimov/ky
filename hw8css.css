@@ -50,10 +50,9 @@ body {
     width: 268px;
     padding: 0px 15px; /*Да, тут*/
     position: relative;
+    display: flex;
+    flex: column;
 }
-
-
-
 .workers__section_photo img {
     width: 268px;
     height: 268px;
@@ -62,7 +61,6 @@ body {
     position: relative;
     height: 100%;
 }
-
 .workers__section_photo::after {
     content: '';
     position: absolute; /*before usabilitie*/
@@ -70,14 +68,36 @@ body {
     height: 100%;
     bottom: 0;
     left: 0;
-    background-color: white;
+    background-color: rgb(25, 180,220);
     z-index: -1;
-    transition: all 1s ease-in;
+    transition: all 0.3s ease-in;
     opacity: 0;
 }
 .workers__section_photo:hover::after { /*такой порядок*/
     z-index: 1;
     opacity: 1;
+}
+.social__icon {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(95,200,230);
+    z-index: 4;
+    transition: all 1s ease-in;
+    margin: 0px 5px 0px 5px;
+}
+i { 
+    position: absolute;
+    transform: translate(33%,33%);
+}
+.fa-facebook-f {
+   transform: translate(70%, 33%);
+}
+.social__icon:last-child {
+    margin-right: 0;
+}
+.social__icon:first-child {
+    margin-left: 0;
 }
 .social-wrapper {
     position: absolute;
@@ -85,12 +105,11 @@ body {
     left: 50%;
     transform: translate(-50%,-50%); /*перемещение (отцентрирование по центру)*/
     display: flex;
-    color: green;
+    color: white;
+    font-size: 25px;
     z-index: 5;
     opacity: 0; /*убрать*/
-    font-size: 40px;
-    font-weight: bold;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
 }
 .workers__section_photo:hover .social-wrapper {
     z-index: 6;
