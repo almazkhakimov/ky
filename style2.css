@@ -27,6 +27,14 @@ h1#example:first-line {
     color:white;
     text-decoration: none;
 } 
+.spanblock {
+    display: block; /*становятся в блок (многоэтажка), inline в линию*/
+    overflow: auto; /*auto (1 polosa) если текст не влез в блок оверфлоу говорит что делать тексту, hidden, visible, */
+    color: honeydew;
+    height: 100px;
+    width: 100px;
+    border: hotpink 1px solid
+}
 .link:hover {
     color: salmon;
     text-decoration: none;
@@ -49,8 +57,8 @@ p {
 #DIVICH { /*!!!БЛОК <div> тут типа края!!!*/
     border: 2px dashed silver; /*dashed - дефисы, dotted - точки, 
     solid - полностью, double - двойная линия,*/
-    height: 200px; /*высота*/
-    width: 500px; /*щирина*/
+    height: 50px; /*высота*/
+    width: 200px; /*щирина*/
     background-color: teal;
     margin: 10px; /*отступ блока*/
     padding: 10px; /*отступ в самом блоке*/
@@ -71,11 +79,13 @@ header {
 article, aside {
     background-color: skyblue;
     height: 400px;
+    /*min-height: 400px; чтобы блоки не сьезжали*/
     border-radius: 5px;
     border: 1px, solid silver;
     box-sizing: border-box;
     margin-top: 20px;
     float: left;
+    padding: 10px;
 }
 article {
     width: 60%;
@@ -84,7 +94,12 @@ article {
 }
 aside {
     width: 25%;
-    position: 
+}
+aside ul { /*варианты спискования*/
+    list-style-position: inside; /*нахождение фигни*/
+   list-style-type: armenian; /*штучки разные*/
+   list-style-image: url('syki.jpg_large') 3%; 
+    
 }
 footer {
     width: calc(100% - 20px); /*Из-за отступа нужно 20 пикселей отнимать*/

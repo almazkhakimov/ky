@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(70,78,84);
+}
+.boxies__white {
+    height: 750px;
+    width: 1060px;
+    margin-top: 150px;
+    margin-left: 70px;
+    background-color: white;
+    padding-top: 200px;
+}
+.boxies__black {
+    height: 190px;
+    width: 870px;
+    background-color: rgb(24, 24, 24);
+    float: right;
+    
+}
+.boxies__yellow {
+    height: 75px;
+    width: 810px;
+    background-color: rgb(250,191, 45);
+    float: right;
+}
+.boxies {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+}
+.boxies__blackyellow {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    
+}
+.boxies__white_first-text {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 30px;
+    padding-left: 125px;
+}
+.boxies__white_second-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 66px;
+    color: black;
+    padding-left: 125px;
+    padding-top: 35px;
+    width: 755px;
+    line-height: 0px;
+}
+.boxies__white_third-text {
+    font-family: 'Georgia', sans-serif;
+    font-size: 30px;
+    color: gray;
+    padding-left: 125px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+.boxies__white_fourth-text, .boxies__white_fifth-text {
+    font-family: 'Georgia' , sans-serif;
+    font-size: 27px;
+    color: black;
+    line-height: auto;
+    padding-left: 125px;
+    max-width: 800px;
+    text-align: justify;
+}
+.boxies__white_fourth-text {
+    padding-top: 55px;
+}
+.boxies__white_fifth-text {
+    padding-top: 15px;
+}
+.boxies__black_title {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 65px;
+    line-height: 0px;
+}
+.boxies__black_text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: white;
+    padding-left: 65px;
+    line-height: 0px;
+
+}
+.line {
+    color: gray;
+    max-width: 800px;
+    margin-left: 65px;
+}
+.images {
+    font-size: 35px;
+    color: rgb(250,220, 150);
+    word-spacing: 10px;
+    padding-left: 45px;
+    padding-top: 18px;
+}
+.bold {
+    color: white;
+}
