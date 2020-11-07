@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(93, 211, 247);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 5%;
+}
+.forecast {
+    position: relative;
+    border: 5px white solid;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.forecast__first, .forecast__second, .forecast__third, .forecast__forth {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+}
+
+.forecast__first li, .forecast__second li, .forecast__third li, .forecast__forth li {
+    display: inline-block;
+}
+
+.forecast__first li {
+    width: 33.3%;
+    font-size: 32px;
+}
+.forecast__first .forecast__50percent {
+    width: 50%;
+}
+.forecast__first .forecast__25percent {
+    width: 25%; 
+}
+.forecast__second li {
+    width: 25%;
+    font-size: 32px;
+}
+.forecast__third li {
+    width: 33.3%;
+    font-size: 32px;
+}
+.forecast__third .forecast__50percent {
+    width: 50%;
+}
+.forecast__third .forecast__25percent {
+    width: 25%;
+}
+.forecast__forth li {
+    width: 100%;
+    font-size: 32px;
+    border-bottom: none;
+}
+.forecast__forth li:last-child{
+    width: 100%;
+    font-size: 32px;
+    border-right: none;
+}
+.forecast__third li:last-child, .forecast__second li:last-child, .forecast__first li:last-child  {
+    border-right: none;
+}
+li {
+   border-right: 5px solid white;
+   border-bottom: 5px solid white;
+   box-sizing: border-box;
+   padding-top: 4%;
+}
+.forecast:hover {
+    position: relative;
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+    z-index: 1;
+}
+li:hover {
+    content: '';
+    position: relative;
+    opacity: 1;
+    background-color: thistle;
+   z-index: 2;
+}
