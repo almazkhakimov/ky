@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 0;
+}
+.header {
+    margin-top:140px;
+    
+}
+.header__container {
+    width: 540px;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.header__main_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #898f99;
+    letter-spacing: 5px;
+    line-height: 12px;
+    margin: 0 auto;
+}
+.header__title_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0ec8cb;
+    letter-spacing: 3px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.header__subtitle {
+    margin: 0 auto;
+    margin-top: 35px; /*тяжело точно настроить маргины*/
+    height: 43px;
+}
+.header__subtitle_text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #999999;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.buttons__container {
+    max-width: 940px;
+    height: 420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    margin-top: 110px;
+}
+.buttons__section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 230px;
+    max-height: 420px;
+    padding: 60px 30px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.buttons__section:hover {
+    background-color: #0ec8cb;
+    transition: all 0.25s ease-in;
+
+}
+.buttons__section_title-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: black;
+    margin-top: 52px;
+    line-height: 1;
+}
+.exp {
+    margin-top: 40px;
+}
+.buttons__section_subtitle-text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 35px;
+    letter-spacing: 0.02em;
+}
+.buttons__section_image {
+    height: 70px;
+}
+.buttons__section_title-text:hover, .buttons__section_subtitle-text:hover {
+    color: white;
+}
