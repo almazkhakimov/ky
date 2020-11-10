@@ -1,7 +1,7 @@
 body {
     background-color: rgb(70,78,84);
 }
-.white_box {
+.box_white {
     height: 750px;
     width: 1060px;
     margin-top: 150px;
@@ -9,20 +9,20 @@ body {
     background-color: white;
     padding-top: 200px;
 }
-.black_box {
+.box_black {
     height: 190px;
     width: 870px;
     background-color: rgb(24, 24, 24);
     float: right;
     
 }
-.yellow_box {
+.box_yellow {
     height: 75px;
     width: 810px;
     background-color: rgb(250,191, 45);
     float: right;
 }
-.all_boxies {
+.container {
    max-width: 1200px;
    margin-left: auto;
    margin-right: auto;
@@ -34,13 +34,13 @@ body {
     right: 0;
     
 }
-.text {
+.box_white__author {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-size: 30px;
     padding-left: 125px;
 }
-.text1 {
+.box_white__title {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 66px;
     color: black;
@@ -49,7 +49,7 @@ body {
     width: 755px;
     line-height: 0px;
 }
-.text2 {
+.box_white__subtitle {
     font-family: 'Georgia', sans-serif;
     font-size: 30px;
     color: gray;
@@ -57,7 +57,7 @@ body {
     padding-top: 0px;
     line-height: 0px;
 }
-.text3, .text4 {
+.box_white__main-text {
     font-family: 'Georgia' , sans-serif;
     font-size: 27px;
     color: black;
@@ -65,14 +65,12 @@ body {
     padding-left: 125px;
     max-width: 800px;
     text-align: justify;
+    margin-top: 55px;
 }
-.text3 {
-    padding-top: 55px;
+.box_white__main-text>p:not(:last-child) {
+    padding-bottom: 15px;
 }
-.text4 {
-    padding-top: 15px;
-}
-.title {
+.box_black__title {
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-size: 15px;
@@ -80,7 +78,7 @@ body {
     padding-left: 65px;
     line-height: 0px;
 }
-.text5 {
+.box_black__subtitle {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
     color: white;
@@ -88,12 +86,12 @@ body {
     line-height: 0px;
 
 }
-.line {
+.box_black__line {
     color: gray;
     max-width: 800px;
     margin-left: 65px;
 }
-.images {
+.box_yellow__images {
     font-size: 35px;
     color: rgb(250,220, 150);
     word-spacing: 10px;
