@@ -1,0 +1,129 @@
+body {
+    background-color:rgb(250,249, 251);
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    max-height: 1000px;
+    background-image: url('victory.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    max-width: 1170px;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.header__bar {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+.header__slide {
+    height: 850px;
+}
+.header__body {
+    height: 850px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header__button {
+    text-transform: uppercase;
+}
+.header__list {
+    list-style: none;
+    padding: 0;
+}
+.header__logo-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+.header__list li {
+    display: inline-block;
+    padding: 5px 0;
+    margin: 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+li:hover {
+    border-top: 2px solid #ff6033;
+    border-width: 3px;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #00b0b0;
+}
+.footer__body {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide__textblock {
+    position: relative;
+    max-width: 370px;
+    top: 215px;
+    height: 240px;
+}
+p {
+    margin: 0;
+}
+.slide__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 0.75;
+}
+.slide__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 35px;
+}
+.slide__button {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.slide__mouse {
+    display: flex;
+    justify-content: center;
+    margin-top: -140px;
+}
+.footer__textblock {
+    margin-left: 100px;
+}
+.footer__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+    line-height: 0.75;
+}
+
+.footer__subtitle-one, .footer__subtitle-two {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+}
+.footer__subtitle-one {
+    margin-top: 30px;
+}
+.footer__subtitle-two {
+    margin-top: 25px;
+}
