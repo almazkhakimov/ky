@@ -51,7 +51,10 @@ a {
     font-weight: 700;
     font-size: 16px;
 }
-li:hover {
+li:hover::before {
+    content:'';
+    display: block;
+    margin-bottom: 3px;
     border-top: 2px solid #ff6033;
     border-width: 3px;
     box-sizing: border-box;
