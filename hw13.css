@@ -1,0 +1,93 @@
+body {
+    background-color: #111a28;
+    font-family: 'Museo Sans Rounded';
+    font-weight: 100;
+}
+
+.content {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: 10% auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #c5c5c8;
+    background-image: url('bg.png'), url('bgdot.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+.card {
+    position: absolute;
+    width: 686px;
+    height: 392px;
+    background-color:#111a28;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.card__header {
+    padding-top: 24px;
+    padding-left: 20px;
+}
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    width: 594px;
+    height: 240px;
+    margin-top: 20px;
+}
+.card__product {
+    margin-top: 49px;
+    margin-left: 37px;
+}
+.card__title {
+    color: #cbcccd;
+    font-size: 24px;
+    margin: 0;
+    line-height: 1;
+}
+.card__subtitle {
+    color:#464c55;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.card__stars {
+    margin: 27px 0;
+    line-height: 1;
+}
+.card__button {
+    display: flex;
+}
+.card__size, .card__qty {
+    border: 0.5px #4f5560 solid;
+    padding: 10px 12px;
+    display: inline;
+    text-transform: capitalize;
+    margin-right: 3px;
+    font-family: 'Museo Sans Rounded';
+    font-weight: 100;
+    color: #9d9fa3;
+    font-size: 14px;
+    line-height: 1;
+}
+.card__purchase {
+    border: 0.5px #4f5560 solid;
+    padding: 14px 52px;
+    text-transform: capitalize;
+    color: #9d9fa3;
+    font-size: 14px;
+    margin-top: 29px;
+}
+.button:hover {
+    transition: all 0.1s ease-in;
+    background-color: #4f5560;
+    opacity: 0.7;
+}
+.card__arrow {
+    margin: 0 9px;
+}
+
