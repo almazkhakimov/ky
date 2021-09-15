@@ -17,17 +17,20 @@ body {
     margin: 0 auto;
 }
 .header__title {
+    padding-top: 100px;
     font-size: 90px;
     color: black;
     font-weight: 700;
 }
 .header__subtitle {
+    padding-top: 50px;
     font-size: 17px;
     color: black;
     font-weight: 300;
 }
 .form {
-    width: 1170px;
+    padding-top: 50px;
+    width: 858px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -47,16 +50,28 @@ body {
     color: black;
     font-weight: 300;
 }
+.ititle__text , .isubtitle__text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.information__container {
+    margin-bottom: 20px;
+}
 .footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
     height: 90px;
-    background-color: black;
+    background-color: #262626;
 }
 .copyright {
     color: #aaaaaa;
     font-size: 16px;
+    padding-left: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+
 }
 .logo {
     font-family: 'Pacifico', cursive;
@@ -67,10 +82,11 @@ body {
     font-size: 15px;
     font-weight: 300;
     color: #aaaaaa;
+    padding-right: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .makers span {
     color: #df2a4f;
-    font-weight: 700;
-   
-    
+    font-weight: 700;  
 }
