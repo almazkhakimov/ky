@@ -55,17 +55,99 @@ body {
     margin-bottom: 0px;
     line-height: 1;
 }
-.card__stars {
+.simple-rating {
     margin: 27px 0;
     line-height: 1;
+    font-size: 20px;
+    position: relative;
 }
-.card__button {
+.simple-rating::before {
+    content: "★★★★★";
+    display: block;
+    flex: 0 0 20%;
+    color: white;
+}
+.simple-rating__items {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
     display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.simple-rating__item {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+.simple-rating__label {
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: white;
+}
+.simple-rating__label::before {
+    content: "★";
+    display: block;
+    transition: color 0.2s ease 0s;
+}
+.simple-rating__label:hover, 
+.simple-rating__label:hover ~ .simple-rating__label,
+.simple-rating__label:checked ~ .simple-rating__label:hover {
+    color: #f7de60;
+}
+.card__button ul {
+    list-style: none;
+}
+.card__button > ul {
+    display: flex;
+}
+.card__button > ul li a {
+    display: block;
+    width: 70px;
+    height: 32px;
+    margin-top: 3px;
+    margin-right: 3px;
+    background-color: #111A28;
+    text-align: center;
+    border: 0.1px #616873 solid;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a {
+    color: #616873;
+}
+.card__button > ul li a:hover {
+    background-color: #616873;
+    color: #111A28;
+}
+.card__button > ul li {
+    position: relative;
+}
+.card__button li ul {
+    position: absolute;
+    display: none;    
+}
+
+.card__button li:hover > ul {
+    display: block; 
+}
+ul {
+    padding-inline-start: 0;
 }
 .card__size, .card__qty {
     border: 0.5px #4f5560 solid;
     padding: 10px 12px;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     text-transform: capitalize;
     margin-right: 3px;
     font-family: 'Museo Sans Rounded';
@@ -90,4 +172,3 @@ body {
 .card__arrow {
     margin: 0 9px;
 }
-
