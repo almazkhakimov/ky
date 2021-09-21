@@ -30,15 +30,34 @@ body {
 }
 .form {
     padding-top: 50px;
-    width: 858px;
+    width: 1170px;
+    height: 446px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
+}
+.form__box {
+    width: 500px;
+    height: 446px;
 }
 .form__controls {
     font-size: 15px;
     color: white;
     font-weight: 300;
+    margin-bottom: 15px;
+}
+input::-webkit-input-placeholder {
+    color: #EFFAFA;
+}
+input {
+    padding: 10px;
+    background-color: #6FD5D3;
+    border-color: #6FD5D3;
+    width: 500px;
+}
+#about {
+    height: 250px;
+    text-align:start;
 }
 .ititle {
     font-size: 17px;
@@ -54,6 +73,9 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.information {
+    width: 500px;
+}
 .information__container {
     margin-bottom: 20px;
 }
@@ -67,7 +89,7 @@ body {
 .copyright {
     color: #aaaaaa;
     font-size: 16px;
-    padding-left: 150px;
+    margin-left: 150px;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
@@ -82,11 +104,17 @@ body {
     font-size: 15px;
     font-weight: 300;
     color: #aaaaaa;
-    padding-right: 150px;
+    margin-right: 150px;
     margin-top: auto;
     margin-bottom: auto;
 }
 .makers span {
     color: #df2a4f;
     font-weight: 700;  
+}
+.copyright__text {
+    width: 270px;
+}
+.makers__text {
+    width: 270px;
 }
