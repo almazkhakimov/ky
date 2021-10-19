@@ -55,9 +55,15 @@ input {
     border-color: #6FD5D3;
     width: 500px;
 }
+textarea {
+    background-color: #6FD5D3;
+    border-color: #6FD5D3;
+    width: 518px;
+    height: 250px;
+}
 #about {
     height: 250px;
-    text-align:start;
+    text-align: start;
 }
 .ititle {
     font-size: 17px;
