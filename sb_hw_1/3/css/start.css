@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gilroy', sans-serif;
+}
+
+.main-content {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222020;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'Graphik LCG', sans-serif;
+	margin-bottom: 30px;
+}
+
+.main-button {
+	display: inline-block;
+	padding: 20px;
+	color: white;
+}
+
+.main-button__dwnld {
+	background-color: #2f1ce4;
+	border: 3px solid;
+	border-color: #2f1ce4;
+}
+
+.main-button__more {
+	border: 3px solid;
+	border-color: white;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.title {
+	color: #000;
+	margin-top: 100px;
+	padding-left: 100px;
+	font-size: 48px;
+	color: #222020;
+}
+
+.back-link {
+	background-image: url(/sb_hw_1/3/return.png);
+	background-position: left center;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+h2 {
+	color: #2f1ce4;
+	padding-left: 180px;
+	font-size: 36px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+ol {
+	padding-left: 200px;
+	font-size: 18px;
+}
+
+ul {
+	padding-left: 200px;
+	font-size: 18px;
+}
+
+p {
+	padding-left: 180px;
+	margin-bottom: 20px;
+}
+
+.example {
+	padding-left: 180px;
+	margin-bottom: 30px;
+}
+
+blockquote {
+	width: 300px;
+	text-align: center;
+}
+
+table {
+	margin-top: 100px;
+	border: 1px black solid;
+}
+
+tr {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}

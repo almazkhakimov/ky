@@ -1,0 +1,41 @@
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.6;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+} 
+blockquote {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: red;
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/08/krasivye-kartinki-kotikov-60.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-indent: 30px; 
+    /* параграф сделать */
+    white-space: nowrap;
+    /* типа перенос текста выкл */
+    opacity: 0.33;
+}
+.title {
+    font-size: 46px;
+    color: yellow;
+}
+
+.parent,
+.child {
+    width: 50%;
+    background-color: red;
+}
