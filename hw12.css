@@ -131,3 +131,98 @@ p {
 .footer__subtitle-two {
     margin-top: 25px;
 }
+.services {
+    background-color: #70bfff;
+}
+.services__body {
+    height: 790px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services__title {
+    position: absolute;
+}
+.services__button {
+    width: 400px;
+    height: 460px;
+}
+.button {
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    padding: 0 30px 0 70px;
+}
+.button:first-child {
+    margin-top: 0px;
+}
+.services__image {
+    position: relative;
+    box-sizing: border-box;
+    height: 523px;
+    width: 535px;
+}
+.services__title {
+    position: absolute;
+}
+.gallery {
+    background-color: #ffe92f;
+}
+.gallery__body {
+    height: 1530px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery__photo {
+    max-width: 1170px;
+    max-height: 980px;
+    box-sizing: border-box;
+    display: grid;
+}
+.gallery__button {
+    width: 200px;
+    height: 55px;
+    background-color: #5585a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.gallery__onephoto {
+    max-height: 550px;
+    max-width: 770px;
+}
+.gallery__twophoto {
+    max-height: 370px;
+    max-width: 260px;
+}
+.gallery__threephoto {
+    max-height: 370px;
+    max-width: 260px;
+}
+.gallery__fourphoto {
+    max-height: 570px;
+    max-width: 400px;
+}
+.subscribe {
+    background-image: url(фонсуб.png);
+}
+.subscribe__body {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
